@@ -1,0 +1,37 @@
+
+
+v1 challenge script
+
+bypass default hcaptcha ddg iuam  (not the bot managed) just default challenge if detect the bot detector attack can't bypass or take alot time for bypassing
+
+
+1,  INSTALL NODEJS 16.X
+
+2 INSTALLING MODULES
+
+npm i child_process
+npm i request
+npm i request-promise
+npm i puppeteer-extra
+npm i sleep-promise
+npm i puppeteer-extra-plugin-stealth
+
+install chromium
+
+apt-get install chromium
+
+installing chrome
+
+1-sudo apt-get update
+2-wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+3-sudo apt install ./google-chrome-stable_current_amd64.deb
+4 download the chromedriver and upload it in folder  /usr/local/bin/
+5-sudo cp chromedriver /usr/local/bin/chromedriver
+
+upload all scripts
+
+chmod +x *
+
+node bypass target time 
+
+and waiting for bypass cookies and call back to attack script
